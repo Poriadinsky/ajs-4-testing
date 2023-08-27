@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tittle {
+  color: gray;  
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.cardList {
+  width: 100%;
+}
+
+.card {
+  width: 64px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.card1 {
+  background-image: url('../pic/free-icon-visa-349221.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card2 {
+  background-image: url('../pic/mastercard.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card3 {
+  background-image: url('../pic/american-express.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card4 {
+  background-image: url('../pic/discover.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card5 {
+  background-image: url('../pic/jcb.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card6 {
+  background-image: url('../pic/diner.png');
+  background-size: cover;
+  background-position: 0;
+}
+
+.card7 {
+  background-image: url('../pic/mir.png');
+  background-size: cover;
+  background-position: 0;
+  z-index: 1;
+}
+
+.card-form-widget {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 0 7px;
+}
+
+.submit {
+  width: 150px;
+  height: 30px;
+  background-color: #5cb85c;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #4cae4c;
+  border-radius: 5px;
+}
+
+.background {
+  background-color: url('../pic/background.png');
+  opacity: 10%;
+}
